@@ -34,7 +34,7 @@ In this phase, various visualizations were employed to explore and gain insights
 #### **Distribution of Features**
 
 This figure illustrates the histograms of various features in the Pima Indians Diabetes dataset, including "Pregnancies," "Glucose," "BloodPressure," "SkinThickness," "Insulin," "BMI," "DiabetesPedigreeFunction," "Age," and "Outcome." Each histogram represents the frequency distribution of the data points within that specific feature. For example, the "Pregnancies" histogram shows a right-skewed distribution, indicating that most women have had relatively few pregnancies. Similarly, "Glucose," "BloodPressure," and "BMI" features show distributions that are roughly normal but with different degrees of skewness. The "Insulin" and "SkinThickness" histograms show a high concentration at lower values, suggesting possible missing or zero-filled data. The "Outcome" feature is binary, indicating whether or not a patient has diabetes, with a higher frequency of patients without diabetes (0) compared to those with diabetes (1).  
-![][viz1.png]
+viz1.png
 
 #### **Boxplot of Features to Identify Outliers**
 
