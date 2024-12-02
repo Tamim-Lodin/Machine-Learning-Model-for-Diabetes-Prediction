@@ -34,13 +34,14 @@ In this phase, various visualizations were employed to explore and gain insights
 #### **Distribution of Features**
 
 This figure illustrates the histograms of various features in the Pima Indians Diabetes dataset, including "Pregnancies," "Glucose," "BloodPressure," "SkinThickness," "Insulin," "BMI," "DiabetesPedigreeFunction," "Age," and "Outcome." Each histogram represents the frequency distribution of the data points within that specific feature. For example, the "Pregnancies" histogram shows a right-skewed distribution, indicating that most women have had relatively few pregnancies. Similarly, "Glucose," "BloodPressure," and "BMI" features show distributions that are roughly normal but with different degrees of skewness. The "Insulin" and "SkinThickness" histograms show a high concentration at lower values, suggesting possible missing or zero-filled data. The "Outcome" feature is binary, indicating whether or not a patient has diabetes, with a higher frequency of patients without diabetes (0) compared to those with diabetes (1).  
-viz1.png
+![Visualization 1](viz1.png)
+
 
 #### **Boxplot of Features to Identify Outliers**
 
 The box plot displays the distribution and spread of each feature in the dataset, highlighting the presence of outliers. Most features have a relatively narrow interquartile range (IQR), but some, such as "Insulin," exhibit a significant number of outliers extending far beyond the upper quartile. This suggests extreme values in the dataset, which may require further investigation or preprocessing to handle appropriately. The box plot also shows that "Glucose," "BMI," and "BloodPressure" have a moderate spread of values, while features like "Pregnancies," "SkinThickness," and "DiabetesPedigreeFunction" have a wider distribution, reflecting the variability within the dataset.
 
-![][viz2.png]
+![Visualization 2](viz2.png)
 
 #### 
 
@@ -54,7 +55,7 @@ The box plot displays the distribution and spread of each feature in the dataset
 
 The heatmap displays the correlation matrix of the features, where each cell represents the Pearson correlation coefficient between two features. Red cells indicate a strong positive correlation, while blue cells indicate a weak or negative correlation. The matrix shows that "Pregnancies" and "Age" have a moderate positive correlation (0.54), which is expected, as the likelihood of more pregnancies increases with age. "Glucose" shows a moderate positive correlation with "Outcome" (0.47), suggesting that higher glucose levels are associated with a greater likelihood of diabetes. Most other features exhibit low correlations with each other, suggesting that they contribute unique information to the dataset.
 
-![][viz3.png]
+![Visualization 3](viz3.png)
 
 ### **3\. Model Building**
 
